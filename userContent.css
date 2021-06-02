@@ -1,0 +1,24 @@
+:root {
+    --color-primary: #141414;    
+    --color-accent: #e08aca;
+  }
+
+@-moz-document url("about:newtab"), url("about:home") {
+    body { 
+        background-color: var(--color-primary) !important;
+        -moz-appearance: none !important;
+        background-image: none !important;
+        border: none !important;
+        box-shadow: none !important; }
+    div.tile, div.top-site-icon, div.search-inner-wrapper, div.search-wrapper {
+        background-color: var(--color-primary) !important;
+        -moz-appearance: none !important;        
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .outer-wrapper.newtab-experience:not(.dnd-active) .top-site-outer:is(.active, :focus, :hover) {
+        background: var(--color-accent) !important;
+    }
+    div.logo-and-wordmark { display:none !important;}
+    div.non-collapsible-section { display:none !important;}
+}
