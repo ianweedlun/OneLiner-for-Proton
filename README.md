@@ -7,6 +7,6 @@
  Change --color-primary & --color-accent to tune to your liking.
 
 # Thanks to
-https://github.com/MrOtherGuy/firefox-csshacks/
-https://github.com/migueravila/SimplerentFox
-https://www.reddit.com/r/FirefoxCSS/
+* https://github.com/MrOtherGuy/firefox-csshacks/
+* https://github.com/migueravila/SimplerentFox
+* https://www.reddit.com/r/FirefoxCSS/
