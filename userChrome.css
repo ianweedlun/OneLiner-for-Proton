@@ -2,11 +2,6 @@
 
 :root {
   --color-primary: #141414;
-  /* 
-  WARNING: Transparency breakes the window behavior, 
-  you can still add transparency but the 
-  window manager will have some bugs. 
-  */
   --color-accent: #e08aca;
 }
 
@@ -66,6 +61,7 @@ window,
   background-image: none !important;
   border: none !important;
   box-shadow: none !important;
+  color: #ffffff !important;
 }
 
 /* Change color of context menu */
