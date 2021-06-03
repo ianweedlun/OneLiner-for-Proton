@@ -211,15 +211,11 @@ urlbar_popup_full_width.css is VERY MUCH recommended for Firefox 71+ because of 
   --tab-min-height: calc(var(--uc-toolbar-height) - 2 * var(--proton-tab-block-margin, 0px)) !important;
 }
 
-/* bigger context-line */
+/* easier to see context-line */
 .tab-context-line {
-  height: 6px !important;
-}
-
-/* This isn't useful when tabs start in the middle of the window */
-
-.titlebar-spacer[type="pre-tabs"] {
-  display: none
+  -moz-box-ordinal-group: 2;
+  margin-inline: 10px !important;
+  height: 4px !important;
 }
 
 #navigator-toolbox>#nav-bar {
