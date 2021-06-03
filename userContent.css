@@ -1,6 +1,17 @@
 :root {
     --color-primary: #141414;    
     --color-accent: #e08aca;
+    --in-content-primary-button-background: var(--color-accent) !important;
+    --in-content-primary-button-background-hover: var(--color-accent) !important;
+    --in-content-primary-button-background-active: var(--color-accent) !important;
+    --buttons-primary-button-bgcolor: var(--color-accent) !important;
+    --buttons-primary-button-hover-bgcolor: var(--color-accent) !important;
+    --buttons-primary-button-active-bgcolor: var(--color-accent) !important;
+    --checkbox-checked-bgcolor: var(--color-accent) !important;
+    --checkbox-checked-hover-bgcolor: var(--color-accent) !important;
+    --checkbox-checked-active-bgcolor: var(--color-accent) !important;
+    --lwt-popup-brighttext-url-color: var(--color-accent) !important;
+    --focus-outline-color: var(--color-accent) !important;
   }
 
 @-moz-document url("about:newtab"), url("about:home") {
@@ -22,3 +33,32 @@
     div.logo-and-wordmark { display:none !important;}
     div.non-collapsible-section { display:none !important;}
 }
+
+
+@-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
+
+    :root {
+    --in-content-primary-button-background: var(--color-accent) !important;
+    --in-content-primary-button-background-hover: var(--color-accent) !important;
+    --in-content-primary-button-background-active: var(--color-accent) !important;
+    --buttons-primary-button-bgcolor: var(--color-accent) !important;
+    --buttons-primary-button-hover-bgcolor: var(--color-accent) !important;
+    --buttons-primary-button-active-bgcolor: var(--color-accent) !important;
+    --checkbox-checked-bgcolor: var(--color-accent) !important;
+    --checkbox-checked-hover-bgcolor: var(--color-accent) !important;
+    --checkbox-checked-active-bgcolor: var(--color-accent) !important;
+    --lwt-popup-brighttext-url-color: var(--color-accent) !important;
+    --focus-outline-color: var(--color-accent) !important;
+  }
+  
+    html:not([role="dialog"]),
+    html:not([role="dialog"]) *,
+    html:not([role="dialog"]) body.activity-stream,
+    window:not([chromehidden]),
+    window:not([chromehidden]) > dialog
+    {
+      --in-content-primary-button-background: var(--color-accent) !important;
+      --in-content-primary-button-background-hover: var(--color-accent) !important;
+      --in-content-primary-button-background-active: var(--color-accent) !important;
+    }
+  }
