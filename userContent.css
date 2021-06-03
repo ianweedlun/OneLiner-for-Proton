@@ -14,7 +14,7 @@
     --focus-outline-color: var(--color-accent) !important;
   }
 
-@-moz-document url("about:newtab"), url("about:home") {
+@-moz-document url("about:newtab"), url("about:home"), url("about:profiles"), url("about:config") {
     body { 
         background-color: var(--color-primary) !important;
         -moz-appearance: none !important;
