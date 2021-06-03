@@ -98,6 +98,7 @@ window,
 #widget-overflow-mainView,
 #identity-popup-mainView,
 #permission-popup-mainView,
+#protections-popup-mainView,
 #nav-bar {
   background-color: var(--color-primary) !important;
   -moz-appearance: none !important;
