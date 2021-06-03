@@ -97,8 +97,11 @@ window,
 #sidebar-box,
 #widget-overflow-mainView,
 #identity-popup-mainView,
+#identity-popup-securityView,
 #permission-popup-mainView,
 #protections-popup-mainView,
+#protections-popup-trackersView,
+#protections-popup-cookiesView,
 #nav-bar {
   background-color: var(--color-primary) !important;
   -moz-appearance: none !important;
