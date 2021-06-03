@@ -132,10 +132,6 @@ S I D E - B A R
   border-radius: 6px !important;
 }
 
-#sidebar-icon {
-  display: none !important;
-}
-
 .sidebar-placesTree {
   color: var(--color-accent) !important;
 }
@@ -244,11 +240,6 @@ urlbar_popup_full_width.css is VERY MUCH recommended for Firefox 71+ because of 
     padding-left: 96px !important;
     padding-right: 0px !important;
   }
-}
-
-/* 1px margin on touch density causes tabs to be too high */
-.tab-close-button {
-  margin-top: 0 !important
 }
 
 /* Make opened urlbar overlay the toolbar */
