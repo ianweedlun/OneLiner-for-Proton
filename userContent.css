@@ -41,7 +41,7 @@ url("about:config") {
     }
 
     div.logo-and-wordmark,
-    div.non-collapsible-section {
+    .personalize-button {
         display: none !important;
     }
 }
