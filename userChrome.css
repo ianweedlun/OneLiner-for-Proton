@@ -81,6 +81,7 @@ window,
 #protections-popup-trackersView,
 #protections-popup-cookiesView,
 #addon-webext-permissions-notification,
+#downloadsPanel-mainView,
 #nav-bar {
   background-color: var(--color-primary) !important;
   -moz-appearance: none !important;
