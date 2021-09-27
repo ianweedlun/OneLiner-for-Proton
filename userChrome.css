@@ -12,7 +12,7 @@
   --checkbox-checked-bgcolor: var(--color-accent) !important;
   --checkbox-checked-hover-bgcolor: var(--color-accent) !important;
   --checkbox-checked-active-bgcolor: var(--color-accent) !important;
-  --lwt-popup-brighttext-url-color: var(--color-accent) !important;
+  --lwt-popup-brighttext-url-color: #ffffff !important;
   --focus-outline-color: var(--color-accent) !important;
   --lwt-toolbarbutton-icon-fill: var(--color-accent) !important;
   --toolbarbutton-icon-fill: var(--color-accent) !important;
@@ -31,7 +31,7 @@
     --checkbox-checked-bgcolor: var(--color-accent) !important;
     --checkbox-checked-hover-bgcolor: var(--color-accent) !important;
     --checkbox-checked-active-bgcolor: var(--color-accent) !important;
-    --lwt-popup-brighttext-url-color: var(--color-accent) !important;
+    --lwt-popup-brighttext-url-color: #ffffff !important;
     --focus-outline-color: var(--color-accent) !important;
   }
 
@@ -85,11 +85,18 @@ window,
 .PanelUI-subView,
 #nav-bar {
   background-color: var(--color-primary) !important;
+  --arrowpanel-background: var(--color-primary) !important;
   -moz-appearance: none !important;
   background-image: none !important;
   border: none !important;
   box-shadow: none !important;
   color: #ffffff !important;
+}
+
+#PlacesToolbar menuitem:hover,
+.menu-iconic.bookmark-item:hover,
+.menuitem-iconic.bookmark-item.menuitem-with-favicon.subviewbutton:hover {
+  background-color: var(--color-accent) !important;
 }
 
 /* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/compact_proton.css made available under Mozilla Public License v. 2.0
@@ -119,6 +126,11 @@ See the above repository for updates as well as full license text. */
 menupopup>menuitem,
 menupopup>menu {
   padding-block: 0.3em !important;
+}
+
+#urlbar,
+.ac-url {
+  color: #ffffff !important;  
 }
 
 #urlbar-background {
@@ -276,6 +288,10 @@ urlbar_popup_full_width.css is VERY MUCH recommended for Firefox 71+ because of 
   background: var(--color-primary) !important;
   border: var(--color-accent) !important;
   animation: none !important;
+}
+
+.urlbarView-row:hover>.urlbarView-row-inner {
+  background-color: var(--color-accent) !important;
 }
 
 /* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/autohide_navigation_button.css made available under Mozilla Public License v. 2.0
